@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2? family = Nunito + Sans: ital, wght @ 1200 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Caveat & family = Nunito + Sans: ital, wght @ 1200 & display = swap');
+
+:root{
+    --fuente1:'Nunito Sans', sans-serif;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #003566;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+a,li{
+    color: white;
+    font-family: var(--fuente1);
+    font-size: 25px;
+}
+.logo-header img{
+    width: 100px;
+    height: 100px;
+    padding-right: 50px;
+    
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #001D3D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem .2rem;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+
+.nav-menu a:hover{
+    color: #FFC300;
+}
+
+.nav-menu li:last-child{
+    background-color: #FFC300;
+    border: 2px solid #FFC300;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+
+.nav-menu li:last-child:hover{
+    background-color: transparent;
+    border: 2px solid #FFC300;
+}
+/*--------------------------------- fin de menu de navegacion */
+/*------------------ inicio main pagina principal */
+
+.container1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.content{
+    margin-left: 20px;
+}
+.titulo1{
+    font-family: var(--fuente1);
+    color: white;
+}
+.titulo2{
+    color: #FFC300;
+    font-family: var(--fuente1);
+}
+
+.parrafo1{
+    color: white;
+    font-family: var(--fuente1);
+    padding-right: 50px;
+}
+/*------------------------------fin inicio main pagina prinicipal */
+/* ----------------------------- inicio main pagina trayectoria */
+.container3{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.fotos{
+    width: 500px;
+    height: 500px;
+}
+.contenido5{
+    margin-left: 50px;
+}
+.titulo3{
+    color: #FFC300;
+    font-family: var(--fuente1);
+    font-size: 25px;
+}
+.parrafo3{
+    color: white;
+    font-family: var(--fuente1);
+    font-size: 15px;
+}
+
+/*------------------------------------- inicio main pagina proyectos */
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: var(--fuente1);
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #0c7df6;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px #FFC300;
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+.container .card h4{
+    font-weight: 600;
+    font-family: var(--fuente1);
+    color: #FFC300;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    font-family: var(--fuente1);
+}
+/*----------------------------------- fin de main de pagina proyectos */
+/*----------------------------------------- inicio main de pagina contacto */
+
+.container3{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-flow:column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.8) 0px 0px 50px;
+    border-radius: 10px;
+}
+input,textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+input:focus, textarea:focus{
+    border-bottom-color: #610061 ;
+}
+
+button{
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: #FFC300;
+    padding: 15px;
+    width: 200px;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0,0,0,0.7) 0px 0px 10px;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 15px;
+    justify-content: center;
+    padding: 30px 50px;
+    margin-left: 15px;
+}
+.titulo2{
+    color: #FFC300;
+    font-family: var(--fuente1);
+    font-size: 30px;
+}
+.parrafo2{
+    color: white;
+    font-family: var(--fuente1);
+    font-size: 18px;
+}
+/*--------------------------- Fin main pagina contacto */
